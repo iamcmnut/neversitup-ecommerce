@@ -1,0 +1,36 @@
+{
+  "name": "service-template",
+  "version": "1.0.0",
+  "description": "A service template with TypeScript and Express.js",
+  "main": "index.js",
+  "author": "Chonchanok M.",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "npm run lint && npm run build-ts",
+    "serve": "node dist/server.js",
+    "test": "jest --forceExit --coverage --verbose",
+    "build-ts": "tsc",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/errorhandler": "^1.5.0",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.13",
+    "@types/supertest": "^2.0.10",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}

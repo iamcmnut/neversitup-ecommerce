@@ -1,0 +1,1 @@
+export * as mainController from "./main-controller";
