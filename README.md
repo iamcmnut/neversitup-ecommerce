@@ -23,12 +23,12 @@ $ npm start
 
 ## Project structure
 ```javascript
-/-
-  |- src
-    |- controllers
-      |- // create your controller here
-    |- models
-      |- // create your model here
-  |- test
-    |- // create your test case here
+  / project root
+  ├─src
+  │ ├─controllers
+  │ │ └─ // create your controller here
+  │ └─models
+  │   └─ // create your model here
+  └─test
+    └─ // create your test case here
 ```
