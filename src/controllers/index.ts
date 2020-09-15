@@ -1,1 +1,10 @@
 export * as mainController from "./main-controller";
+export * as productGetAll from "./product-all-controller";
+export * as productGetOne from "./product-one-controller";
+export * as userGetProfile from "./user-profile-controller";
+export * as userRegister from "./user-register-controller";
+export * as userLogin from "./user-login-controller";
+export * as orderGetHistory from "./order-history-controller";
+export * as orderGetOne from "./order-one-controller";
+export * as orderCancel from "./order-cancel-controller";
+export * as orderMake from "./order-make-controller";
